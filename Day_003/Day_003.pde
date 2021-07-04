@@ -4,11 +4,12 @@ color color1 = color(255, 213, 0);
 color color2 = color(255, 162, 0);
 float r = 100;
 
-int drawWay = 3;
+int drawWay = 4;
 
 PGraphics pg_content;
 PGraphics pg_circleMask;
 PGraphics pg_shapeMask;
+PGraphics pg_fontMask;
 
 void setup() {
   size(500, 500);
@@ -16,6 +17,7 @@ void setup() {
   pg_content = createGraphics(width, height);
   pg_circleMask = createGraphics(width, height);
   pg_shapeMask = createGraphics(width, height);
+  pg_fontMask = createGraphics(width, height);
 }
 
 void keyPressed() {
@@ -29,6 +31,9 @@ void keyPressed() {
     redraw();
   } else if (key == '3') {
     drawWay = 3;
+    redraw();
+  } else if (key == '4') {
+    drawWay = 4;
     redraw();
   }
 }
@@ -44,10 +49,12 @@ void draw() {
       drawWithShapeMask();
       break;
     case 3:
+      drawWithFontMask();
+      break;
+    case 4:
       drawWithNoMask();
       break;
   }
-  noLoop();
 }
 
 void drawWithCircleMask() {
@@ -121,9 +128,34 @@ void drawShapeMask() {
   pg_shapeMask.endDraw();
 }
 
+void drawWithFontMask() {
+  fill(0);
+  text("3: 使用遮罩-font", 20, 20, 200, 30);
+  
+  drawContent();
+  drawFontMask();
+  pg_content.mask(pg_fontMask);
+  
+
+  image(pg_content, 0, 0);
+}
+
+void drawFontMask() {
+  pg_fontMask.beginDraw();
+  pg_fontMask.pushMatrix();
+  pg_fontMask.translate(width/2, height/2);
+  pg_fontMask.background(0);
+  pg_fontMask.fill(255);
+  pg_fontMask.textAlign(CENTER);
+  pg_fontMask.textSize(30);
+  pg_fontMask.text("Hello Processing!", 0, 0);
+  pg_fontMask.popMatrix();
+  pg_fontMask.endDraw();
+}
+
 void drawWithNoMask() {
   fill(0);
-  text("3: 直接绘制", 20, 20, 200, 30);
+  text("4: 直接绘制", 20, 20, 200, 30);
 
   noFill();
   translate(width/2, height/2);

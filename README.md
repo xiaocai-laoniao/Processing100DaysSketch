@@ -23,3 +23,10 @@
 - 重要知识点：circle、stroke
 
 <img src="Day_002/Day_002.png" alt="Day_002" width="300" height="300" />
+
+### Day_003
+
+- 描述：遮罩的用法、不规则图形遮罩、线性渐变
+- 重要知识点：PGraphics、mask、lerpColor、vertex
+
+<img src="Day_003/Day_003.png" alt="Day_003" width="300" height="300" />

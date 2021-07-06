@@ -9,19 +9,46 @@ void setup() {
 
 void draw() {
   background(255);
-  noStroke();
-  fill(255, 0, 0);
 
   startAngle += rotateSpeed;
-  wrongDraw();
+  // wrongDraw();
 
-  // rightDraw();
+  rightDraw();
 }
 
 
 // 求出三角形边和圆的切点，让圆弧的起止点在两个切点上
 void rightDraw() {
+  translate(width/2, height/2);
+  noFill();
+  stroke(0);
+  circle(0, 0, r * 2);
 
+  // 需要填充到话，反注释下面两句
+  // noStroke();
+  // fill(255, 0, 0);
+  beginShape();
+  float x0 = 0;
+  float y0 = 0;
+  float x1 = r * cos(startAngle);
+  float y1 = r * sin(startAngle);
+  float x2 = r * cos(startAngle + angle);
+  float y2 = r * sin(startAngle + angle);
+  vertex(x0, y0);
+  vertex(x1, y1);
+  vertex(x2, y2);
+  endShape(CLOSE);
+
+
+  float outerCircleR = abs(r * tan(angle / 2));
+  // 内切圆圆心方向
+  PVector outerCirleCenterVector = (new PVector(x1, y1)).rotate(angle/2);
+  // 归一
+  outerCirleCenterVector.normalize();
+  // 乘以长度（内切圆圆形到坐标系原点距离-坐标系已经移动到舞台中央了）
+  outerCirleCenterVector.mult(r / cos(angle/2));
+  translate(outerCirleCenterVector.x, outerCirleCenterVector.y);
+  circle(0, 0, outerCircleR * 2);
 }
 
 // 在两个图像的交界处，并不是平滑过渡的，而是有一个钝角

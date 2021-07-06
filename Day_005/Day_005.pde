@@ -11,9 +11,9 @@ void draw() {
   background(255);
 
   startAngle += rotateSpeed;
-  // wrongDraw();
+  wrongDraw();
 
-  rightDraw();
+  // rightDraw();
 }
 
 
@@ -52,6 +52,9 @@ void rightDraw() {
 
 // 在两个图像的交界处，并不是平滑过渡的，而是有一个钝角
 void wrongDraw() {
+  // noStroke();
+  // fill(255, 0, 0);
+
   translate(width/2, height/2);
   beginShape();
   float x0 = 0;
@@ -63,7 +66,7 @@ void wrongDraw() {
   vertex(x0, y0);
   vertex(x1, y1);
   vertex(x2, y2);
-  endShape();
+  endShape(CLOSE);
 
   float circleCenterX = lerp(x1, x2, 0.5);
   float circleCenterY = lerp(y1, y2, 0.5);

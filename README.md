@@ -37,3 +37,10 @@
 - 重要知识点：filter、BLUR
 
 <img src="Day_004/Day_004.png" alt="Day_004" width="300" height="300" />
+
+### Day_005
+
+- 描述：旋转的“冰激凌”
+- 重要知识点：arc、lerp、sin、cos
+
+<img src="Day_005/Day_005.gif" alt="Day_005" width="300" height="300" />

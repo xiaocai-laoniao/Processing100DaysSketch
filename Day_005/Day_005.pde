@@ -39,13 +39,12 @@ void rightDraw() {
   vertex(x2, y2);
   endShape(CLOSE);
 
-
   float outerCircleR = abs(r * tan(angle / 2));
   // 内切圆圆心方向
   PVector outerCirleCenterVector = (new PVector(x1, y1)).rotate(angle/2);
   // 归一
   outerCirleCenterVector.normalize();
-  // 乘以长度（内切圆圆形到坐标系原点距离-坐标系已经移动到舞台中央了）
+  // 乘以长度（内切圆圆心到坐标系原点距离-坐标系已经移动到舞台中央了）
   outerCirleCenterVector.mult(r / cos(angle/2));
   translate(outerCirleCenterVector.x, outerCirleCenterVector.y);
   circle(0, 0, outerCircleR * 2);

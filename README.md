@@ -30,3 +30,10 @@
 - 重要知识点：PGraphics、mask、lerpColor、vertex
 
 <img src="Day_003/Day_003.png" alt="Day_003" width="300" height="300" />
+
+### Day_004
+
+- 描述：发光的几种实现方式
+- 重要知识点：filter、BLUR
+
+<img src="Day_004/Day_004.png" alt="Day_004" width="300" height="300" />

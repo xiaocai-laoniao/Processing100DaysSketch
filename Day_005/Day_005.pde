@@ -1,7 +1,6 @@
 float r = 200;
 float angle = PI / 6;
-float startAngle = PI / 4 * 3;
-float rotateSpeed = 0.01;
+float startAngle = PI / 4 * 3; float rotateSpeed = 0.01;
 void setup() {
   size(500, 500);
 }
@@ -11,9 +10,9 @@ void draw() {
   background(255);
 
   startAngle += rotateSpeed;
-  wrongDraw();
+  // wrongDraw();
 
-  // rightDraw();
+  rightDraw();
 }
 
 

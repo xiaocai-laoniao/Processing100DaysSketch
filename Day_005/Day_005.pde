@@ -24,7 +24,7 @@ void rightDraw() {
   stroke(0);
   circle(0, 0, r * 2);
 
-  // 需要填充到话，反注释下面两句
+  // 需要填充色的话，反注释下面两句
   // noStroke();
   // fill(255, 0, 0);
   beginShape();
@@ -41,12 +41,12 @@ void rightDraw() {
 
   float outerCircleR = abs(r * tan(angle / 2));
   // 内切圆圆心方向
-  PVector outerCirleCenterVector = (new PVector(x1, y1)).rotate(angle/2);
+  PVector outerCircleCenterVector = (new PVector(x1, y1)).rotate(angle/2);
   // 归一
-  outerCirleCenterVector.normalize();
+  outerCircleCenterVector.normalize();
   // 乘以长度（内切圆圆心到坐标系原点距离-坐标系已经移动到舞台中央了）
-  outerCirleCenterVector.mult(r / cos(angle/2));
-  translate(outerCirleCenterVector.x, outerCirleCenterVector.y);
+  outerCircleCenterVector.mult(r / cos(angle/2));
+  translate(outerCircleCenterVector.x, outerCircleCenterVector.y);
   circle(0, 0, outerCircleR * 2);
 }
 

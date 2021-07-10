@@ -44,3 +44,11 @@
 - 重要知识点：arc、lerp、sin、cos
 
 <img src="Day_005/Day_005.gif" alt="Day_005" width="300" height="300" />
+
+
+### Day_006
+
+- 描述：视频马赛克处理
+- 重要知识点：video、Capture
+
+<img src="Day_006/Day_006.png" alt="Day_006" width="300" height="300" />

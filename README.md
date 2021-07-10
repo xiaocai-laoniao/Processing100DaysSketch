@@ -52,3 +52,10 @@
 - 重要知识点：video、Capture
 
 <img src="Day_006/Day_006.png" alt="Day_006" width="300" height="300" />
+
+### Day_007
+
+- 描述：识别指尖颜色生成平台与小球碰撞
+- 重要知识点：video、Capture、Box2d
+
+<img src="Day_007/Day_007.png" alt="Day_007" width="300" height="300" />

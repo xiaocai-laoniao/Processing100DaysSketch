@@ -29,6 +29,8 @@ void setup() {
   graphics3.smooth();
   graphics4 = createGraphics(width, height);
   graphics4.smooth();
+
+  noLoop();
 }
 
 void draw() {
@@ -123,5 +125,9 @@ void drawGraphics4() {
 void keyPressed() {
   if (key == 's' || key == 'S') {
     save("Day_008.png");
+  } else if (key == 'l') {
+    loop();
+  } else if (key == 'n') {
+    noLoop();
   }
 }

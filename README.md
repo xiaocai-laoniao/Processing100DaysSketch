@@ -59,3 +59,10 @@
 - 重要知识点：video、Capture、Box2d
 
 <img src="Day_007/Day_007.png" alt="Day_007" width="320" height="240" />
+
+### Day_008
+
+- 描述：曲线运动轨迹-动态
+- 重要知识点：ellipse、sin、cos
+
+<img src="Day_008/Day_008.png" alt="Day_008" width="320" height="256" />

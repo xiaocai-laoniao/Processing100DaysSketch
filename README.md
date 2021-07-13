@@ -66,3 +66,10 @@
 - 重要知识点：ellipse、sin、cos
 
 <img src="Day_008/Day_008.png" alt="Day_008" width="320" height="256" />
+
+### Day_009
+
+- 描述：瞅你咋滴
+- 重要知识点：PVector
+
+<img src="Day_009/Day_009.png" alt="Day_009" width="320" height="256" />

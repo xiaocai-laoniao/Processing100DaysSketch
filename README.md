@@ -73,3 +73,10 @@
 - 重要知识点：PVector
 
 <img src="Day_009/Day_009.png" alt="Day_009" width="320" height="256" />
+
+### Day_010
+
+- 描述：叠加旋转方块的声音可视化练习
+- 重要知识点：Array、minim
+
+<img src="Day_010/Day_010.png" alt="Day_010" width="320" height="256" />

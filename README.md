@@ -80,3 +80,10 @@
 - 重要知识点：Array、minim
 
 <img src="Day_010/Day_010.png" alt="Day_010" width="320" height="256" />
+
+### Day_011
+
+- 描述：镜像绘画的秘密
+- 重要知识点：line
+
+<img src="Day_011/Day_011.png" alt="Day_011" width="320" height="256" />

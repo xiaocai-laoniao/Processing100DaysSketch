@@ -87,3 +87,11 @@
 - 重要知识点：line
 
 <img src="Day_011/Day_011.png" alt="Day_011" width="320" height="256" />
+
+### Day_012
+
+- 描述：彩色纹理
+- 重要知识点：noise
+
+<img src="Day_012/Day_012_1.png" alt="Day_012" width="320" height="256" />
+<img src="Day_012/Day_012_2.png" alt="Day_012" width="320" height="256" />

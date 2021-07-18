@@ -95,3 +95,10 @@
 
 <img src="Day_012/Day_012_1.png" alt="Day_012" width="320" height="256" />
 <img src="Day_012/Day_012_2.png" alt="Day_012" width="320" height="256" />
+
+### Day_013
+
+- 描述：粒子的音乐躁动
+- 重要知识点：noise、sound
+
+<img src="Day_013/Day_013.png" alt="Day_013" width="320" height="256" />

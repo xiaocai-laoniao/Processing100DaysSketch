@@ -102,3 +102,10 @@
 - 重要知识点：noise、sound
 
 <img src="Day_013/Day_013.png" alt="Day_013" width="320" height="256" />
+
+### Day_014
+
+- 描述：初识3D方块
+- 重要知识点：P3D、box
+
+<img src="Day_014/Day_014.png" alt="Day_014" width="320" height="256" />

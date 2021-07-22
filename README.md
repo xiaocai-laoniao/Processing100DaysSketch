@@ -109,3 +109,11 @@
 - 重要知识点：P3D、box
 
 <img src="Day_014/Day_014.png" alt="Day_014" width="320" height="256" />
+
+
+### Day_015
+
+- 描述：tiled contour
+- 重要知识点：p5js beginContour endContour
+
+<img src="Day_015/Day_015.png" alt="Day_015" width="320" height="256" />

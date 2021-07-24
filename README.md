@@ -117,3 +117,10 @@
 - 重要知识点：p5js beginContour endContour
 
 <img src="Day_015/Day_015.png" alt="Day_015" width="320" height="256" />
+
+### Day_016
+
+- 描述：curveTightness
+- 重要知识点：curveTightness
+
+<img src="Day_016/Day_016.png" alt="Day_016" width="320" height="256" />

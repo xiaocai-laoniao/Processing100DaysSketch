@@ -131,3 +131,10 @@
 - 重要知识点：textToPoints
 
 <img src="Day_017/Day_017.png" alt="Day_017" width="320" height="256" />
+
+### Day_018
+
+- 描述：noise静态流场
+- 重要知识点：noise
+
+<img src="Day_018/Day_018.png" alt="Day_018" width="320" height="256" />

@@ -124,3 +124,10 @@
 - 重要知识点：curveTightness
 
 <img src="Day_016/Day_016.png" alt="Day_016" width="320" height="256" />
+
+### Day_017
+
+- 描述：字体点阵
+- 重要知识点：textToPoints
+
+<img src="Day_017/Day_017.png" alt="Day_017" width="320" height="256" />

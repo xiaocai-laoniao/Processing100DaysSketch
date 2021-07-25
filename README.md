@@ -144,4 +144,4 @@
 - 描述：Grid的波浪运动
 - 重要知识点：sin、cos、keyPressed()、keyCode
 
-<img src="Day_019/Day_019.png" alt="Day_019" width="320" height="256" />
+<img src="Day_019/Day_019.png" alt="Day_019" width="300" height="300" />

@@ -51,7 +51,7 @@ class Grid {
 
     for (let i = 0; i < this.gridWidth; i++) {
       let row = [];
-      for (let j = 0; j < this.gridWidth; j++) {
+      for (let j = 0; j < this.gridHeight; j++) {
         let posX = this.startPosX + (this.unitSize + this.unitSpace) * i;
         let posY = this.startPosY + (this.unitSize + this.unitSpace) * j;
         let unit = new Unit(posX, posY, this.unitSize);
@@ -63,7 +63,7 @@ class Grid {
 
   display() {
     for (let i = 0; i < this.gridWidth; i++) {
-      for (let j = 0; j < this.gridWidth; j++) {
+      for (let j = 0; j < this.gridHeight; j++) {
         this.units[i][j].display();
       }
     }

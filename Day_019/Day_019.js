@@ -47,7 +47,7 @@ class Grid {
     this.unitSize = 20;
     this.unitSpace = 4;
     this.startPosX = (width - this.unitSize * this.gridWidth - (this.gridWidth - 1) * this.unitSpace) / 2 + this.unitSize / 2;
-    this.startPosY = (height - this.gridWidth * this.unitSize - (this.gridHeight - 1) * this.unitSpace) / 2 + this.unitSize / 2;
+    this.startPosY = (height - this.gridHeight * this.unitSize - (this.gridHeight - 1) * this.unitSpace) / 2 + this.unitSize / 2;
 
     for (let i = 0; i < this.gridWidth; i++) {
       let row = [];

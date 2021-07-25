@@ -138,3 +138,10 @@
 - 重要知识点：noise
 
 <img src="Day_018/Day_018.png" alt="Day_018" width="320" height="256" />
+
+### Day_019
+
+- 描述：Grid的波浪运动
+- 重要知识点：sin、cos
+
+<img src="Day_019/Day_019.png" alt="Day_019" width="320" height="256" />

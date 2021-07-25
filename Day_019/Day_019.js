@@ -97,7 +97,7 @@ class Unit {
     let red = 100 + 155 * sin(this.posX + millis() / 500);
     let green = 100 + 155 * sin(this.posY + millis() / 500);
     let blue = 125;
-    let alpha = 100 + 155 * sin(this.posX + this.posY + millis() / 500)
+    let alpha = 100 + 155 * sin(this.posX + this.posY + millis() / 500);
     fill(red, green, blue, alpha);
 
     rect(this.posX, this.posY, this.size, this.size, 8);

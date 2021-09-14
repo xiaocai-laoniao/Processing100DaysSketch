@@ -145,3 +145,17 @@
 - 重要知识点：sin、cos、keyPressed()、keyCode
 
 <img src="Day_019/Day_019.png" alt="Day_019" width="300" height="300" />
+
+### Day_020
+
+- 描述：球体阴影练习
+- 重要知识点：sphere、spotLight
+
+<img src="Day_020/Day_020.png" alt="Day_020" width="320" height="256" />
+
+### Day_021
+
+- 描述：loading
+- 重要知识点：HSB、sin、cos
+
+<img src="Day_021/Day_021.png" alt="Day_021" width="300" height="300" />

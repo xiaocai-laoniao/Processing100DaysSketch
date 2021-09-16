@@ -159,3 +159,10 @@
 - 重要知识点：HSB、sin、cos
 
 <img src="Day_021/Day_021.png" alt="Day_021" width="300" height="300" />
+
+### Day_022
+
+- 描述：drawingContext的clip
+- 重要知识点：drawingContext
+
+<img src="Day_022/Day_022.png" alt="Day_022" width="300" height="300" />

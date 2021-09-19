@@ -166,3 +166,10 @@
 - 重要知识点：drawingContext
 
 <img src="Day_022/Day_022.png" alt="Day_022" width="300" height="300" />
+
+### Day_023
+
+- 描述：区块链鸟
+- 重要知识点：rect、arc、drawingContext等
+
+<img src="Day_023/Day_023.png" alt="Day_023" width="300" height="330" />

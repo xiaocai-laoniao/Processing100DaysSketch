@@ -46,19 +46,22 @@ void draw() {
   avatarLayer.pushMatrix();
   avatarLayer.background(200);
   if (avatarImage != null) {
+    // 绘制头像
     avatarLayer.image(avatarImage, 0, 0);
   } else {
+    // 如果没选图像，默认一个矩形填充
     avatarLayer.fill(100);
     avatarLayer.noStroke();
     avatarLayer.rect(0, 0, avatarSize, avatarSize);
   }
   // 获取当前选中的封面图数据
   PImage currentSelectedCoverImage = coverImages[currentSelectedCoverIndex];
-  // 将头像图层显示出来
+  // 绘制头像封面
   avatarLayer.image(currentSelectedCoverImage, 0, 0);
   avatarLayer.popMatrix();
   avatarLayer.endDraw();
 
+  // 将头像图层显示出来
   image(avatarLayer, 100, 100);
 
   pushMatrix();

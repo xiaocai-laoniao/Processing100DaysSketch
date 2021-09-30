@@ -173,3 +173,34 @@
 - 重要知识点：rect、arc、drawingContext等
 
 <img src="Day_023/Day_023.png" alt="Day_023" width="300" height="330" />
+
+### Day_024
+
+- 描述：字体像素化
+- 重要知识点：loadPixels、updatePixels
+
+<img src="Day_024/Day_024.png" alt="Day_024" width="300" height="300" />
+
+
+### Day_025
+
+- 描述：暂无
+- 重要知识点：暂无
+
+### Day_026
+
+- 描述：字体的噪波缩放
+- 重要知识点：noise
+
+<img src="Day_026/Day_026.png" alt="Day_026" width="300" height="300" />
+
+### Day_027
+
+- 描述：国庆头像生成器
+- 重要知识点：PGraphics、selectInput
+
+<img src="Day_027/NationalDayAvatar-946.png" alt="Day_027" width="300" height="300" />
+<br/>
+<img src="Day_027/NationalDayAvatar-1249.png" alt="Day_027" width="300" height="300" />
+<br/>
+<img src="Day_027/NationalDayAvatar-1452.png" alt="Day_027" width="300" height="300" />

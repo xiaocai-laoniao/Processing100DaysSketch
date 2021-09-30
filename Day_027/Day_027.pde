@@ -110,10 +110,12 @@ void fileSelected(File selection) {
 
     String[] paths = split(imageChoosedPath, "/");
     String fileName = paths[paths.length - 1];
-
+    // 检测下文件后缀是否是png/jpg/jpeg等格式
     Boolean isValidImage = checkFileExtension(fileName);
     if (isValidImage) {
+      // 加载读取头像文件
       avatarImage = loadImage(imageChoosedPath);
+      // 进行resize
       avatarImage.resize(avatarSize, avatarSize);
     } else {
       println("[文件选择] 文件选择非 png/jpg/jpeg 格式");

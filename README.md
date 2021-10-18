@@ -211,3 +211,10 @@
 - 重要知识点：递归
 
 <img src="Day_028/Day_028.png" idth="300" height="300" />
+
+### Day_029
+
+- 描述：场景的渐隐渐现过渡
+- 重要知识点：ArrayList
+
+<img src="Day_029/Day_029.png" idth="300" height="300" />

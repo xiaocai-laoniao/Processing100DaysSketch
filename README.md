@@ -218,3 +218,17 @@
 - 重要知识点：ArrayList
 
 <img src="Day_029/Day_029.png" idth="300" height="300" />
+
+### Day_030
+
+- 描述：加载svg
+- 重要知识点：loadShape
+
+<img src="Day_030/Day_030.png" idth="300" height="300" />
+
+### Day_031
+
+- 描述：图层的透明、半透明等
+- 重要知识点：PGraphics、beginDraw、endDraw、clear
+
+<img src="Day_031/Day_031.png" idth="300" height="300" />

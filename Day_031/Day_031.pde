@@ -35,7 +35,7 @@ void draw() {
 
   image(pg1, 0, 0);               // 图层1位于画面左半部分
   image(pg2, width / 2, 0);     // 图层2位于右上角
-  image(pg3, width / 2, height / 2); // 图层2位于右下角
+  image(pg3, width / 2, height / 2); // 图层3位于右下角
 }
 
 

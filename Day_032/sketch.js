@@ -5,11 +5,6 @@ let canvas;
 let capture;
 let context;
 
-let radius;
-let str = "Processing";
-let theta;
-let points = []
-
 const modelSettings = {
 	flipHorizontal: true,
 	maxNumBoxes: 10,

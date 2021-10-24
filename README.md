@@ -210,25 +210,32 @@
 - 描述：递归圆
 - 重要知识点：递归
 
-<img src="Day_028/Day_028.png" idth="300" height="300" />
+<img src="Day_028/Day_028.png" width="300" height="300" />
 
 ### Day_029
 
 - 描述：场景的渐隐渐现过渡
 - 重要知识点：ArrayList
 
-<img src="Day_029/Day_029.png" idth="300" height="300" />
+<img src="Day_029/Day_029.png" width="300" height="300" />
 
 ### Day_030
 
 - 描述：加载svg
 - 重要知识点：loadShape
 
-<img src="Day_030/Day_030.png" idth="300" height="300" />
+<img src="Day_030/Day_030.png" width="300" height="300" />
 
 ### Day_031
 
 - 描述：图层的透明、半透明等
 - 重要知识点：PGraphics、beginDraw、endDraw、clear
 
-<img src="Day_031/Day_031.png" idth="300" height="300" />
+<img src="Day_031/Day_031.png" width="300" height="300" />
+
+### Day_032
+
+- 描述：p5js 手部识别 Handtrack
+- 重要知识点：Handtrack.js
+
+<img src="Day_032/Day_032.jpeg" width="300" height="225" />

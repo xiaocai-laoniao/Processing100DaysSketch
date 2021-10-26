@@ -239,3 +239,10 @@
 - 重要知识点：Handtrack.js
 
 <img src="Day_032/Day_032.jpeg" width="300" height="225" />
+
+### Day_033
+
+- 描述：P3D 练习
+- 重要知识点：beginShape、endShape、vertex
+
+<img src="Day_033/Day_033.png" width="300" height="300" />

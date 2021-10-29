@@ -246,3 +246,10 @@
 - 重要知识点：beginShape、endShape、vertex
 
 <img src="Day_033/Day_033.png" width="300" height="300" />
+
+### Day_034
+
+- 描述：完美gif loop
+- 重要知识点：无
+
+<img src="Day_034/Day_034.gif" width="500" height="200" />

@@ -253,3 +253,10 @@
 - 重要知识点：无
 
 <img src="Day_034/Day_034.gif" width="500" height="200" />
+
+### Day_035
+
+- 描述：生成svg
+- 重要知识点：svg
+
+<img src="Day_035/Day_035.png" width="300" />

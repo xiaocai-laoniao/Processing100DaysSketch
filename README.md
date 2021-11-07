@@ -260,3 +260,22 @@
 - 重要知识点：svg
 
 <img src="Day_035/Day_035.png" width="300" />
+
+### Day_036
+
+- 描述：
+- 重要知识点：
+
+### Day_037
+
+- 描述：字体轮廓
+- 重要知识点：PFont、PShape、getVertexCount、getVertex
+
+<img src="Day_037/Day_037.png" width="300" />
+
+### Day_038
+
+- 描述：加载图片显示字体像素
+- 重要知识点：loadPixels、updatePixels
+
+<img src="Day_038/Day_038.gif" width="300" />

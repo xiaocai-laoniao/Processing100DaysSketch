@@ -293,3 +293,11 @@
 - 重要知识点：gif-animation
 
 <img src="https://gitee.com/Childhood/blog-pic-1/raw/master/2021/11/13/playgif.gif" width="300" />
+
+
+### Day_041
+
+- 描述：播放gif动图，控制动画速度
+- 重要知识点：image
+
+<img src="https://gitee.com/Childhood/blog-pic-1/raw/master/2021/11/13/gif_1.gif" width="300" />

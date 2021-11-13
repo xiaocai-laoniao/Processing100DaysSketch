@@ -301,3 +301,11 @@
 - 重要知识点：image
 
 <img src="https://gitee.com/Childhood/blog-pic-1/raw/master/2021/11/13/gif_1.gif" width="300" />
+
+
+### Day_042
+
+- 描述：使用精灵图播放动图
+- 重要知识点：get(x, y, width, height), JSONObject
+
+<img src="https://gitee.com/Childhood/blog-pic-1/raw/master/2021/11/13/spritesheet.gif" width="300" />

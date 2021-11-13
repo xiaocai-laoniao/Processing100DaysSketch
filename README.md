@@ -279,3 +279,17 @@
 - 重要知识点：loadPixels、updatePixels
 
 <img src="Day_038/Day_038.gif" width="300" />
+
+
+### Day_039
+
+- 描述：待补充
+- 重要知识点：
+
+
+### Day_040
+
+- 描述：播放gif动图
+- 重要知识点：gif-animation
+
+<img src="https://gitee.com/Childhood/blog-pic-1/raw/master/2021/11/13/playgif.gif" width="300" />

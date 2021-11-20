@@ -309,3 +309,10 @@
 - 重要知识点：get(x, y, width, height), JSONObject
 
 <img src="https://gitee.com/Childhood/blog-pic-1/raw/master/2021/11/13/spritesheet.gif" width="300" />
+
+### Day_043
+
+- 描述：简易钟摆
+- 重要知识点：sin、frameCount、translate
+
+<img src="Day_043/Day_043.gif" width="300" />

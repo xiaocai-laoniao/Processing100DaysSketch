@@ -325,3 +325,11 @@
 <img src="Day_044/Day_044.gif" width="300" />
 
 [https://www.processing.love/d/27-processing](https://www.processing.love/d/27-processing)
+
+
+### Day_045
+
+- 描述：图片镜像反转
+- 重要知识点：scale
+
+<img src="Day_045/Day_045.png" width="300" />

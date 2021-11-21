@@ -316,3 +316,12 @@
 - 重要知识点：sin、frameCount、translate
 
 <img src="Day_043/Day_043.gif" width="300" />
+
+### Day_044
+
+- 描述：点石成路
+- 重要知识点：PVector、ArrayList
+
+<img src="Day_044/Day_044.gif" width="300" />
+
+[https://www.processing.love/d/27-processing](https://www.processing.love/d/27-processing)

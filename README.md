@@ -333,3 +333,11 @@
 - 重要知识点：scale
 
 <img src="Day_045/Day_045.png" width="300" />
+
+
+### Day_046
+
+- 描述：生命游戏寻找周边邻居原理演示
+- 重要知识点：for loop理解
+
+<img src="Day_046/Day_046.gif" width="300" />

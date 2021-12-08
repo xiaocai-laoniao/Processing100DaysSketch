@@ -263,8 +263,10 @@
 
 ### Day_036
 
-- 描述：
-- 重要知识点：
+- 描述：根据鼠标移动速度绘制大小不同的圆
+- 重要知识点：mouseX, mouseY, pmouseX, pmouseY
+  
+<img src="Day_036/Day_036.png" width="300" />
 
 ### Day_037
 
@@ -341,3 +343,11 @@
 - 重要知识点：for loop理解
 
 <img src="Day_046/Day_046.gif" width="300" />
+
+### Day_047
+
+- 描述：基本的粒子系统
+- 重要知识点：[从零入门Processing粒子系统](https://mp.weixin.qq.com/s/ExYbuaohlaktAqe7wKvIrA)
+
+
+<img src="https://mmbiz.qpic.cn/mmbiz_gif/o2DBIZCS4KrpGvGqWGoz8VSb5t7lM13NW1IxEoK2NqXFiaqcWkqCjZia5eLBSLLbcnV4ywl4evd3MCfTyQ51Cw4w/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1" width="300" />

@@ -1,2 +1,4 @@
 .DS_Store
 .autosave
+*.mp4
+ffmpeg.txt

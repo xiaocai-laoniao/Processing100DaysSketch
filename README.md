@@ -357,5 +357,11 @@
 - 描述：Agent文字
 - 重要知识点：PVector
 
-
 <img src="Day_048/Day_048.png" width="300" />
+
+## Day_049
+
+- 描述：熟悉3D绘图操作
+- 重要知识点：P3D、rotateY、rotateX
+
+<img src="Day_049/Day_049.png" width="300" />

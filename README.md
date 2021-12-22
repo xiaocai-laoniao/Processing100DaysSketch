@@ -365,3 +365,8 @@
 - 重要知识点：P3D、rotateY、rotateX
 
 <img src="Day_049/Day_049.png" width="300" />
+
+## Day_050
+
+- 描述：读取data文件夹下按照修改时间排序的文件
+- 重要知识点：Arrays, Comparator.comparingLong(File::lastModified).reversed(), File, listFiles()

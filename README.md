@@ -45,7 +45,6 @@
 
 <img src="Day_005/Day_005.gif" alt="Day_005" width="300" height="300" />
 
-
 ### Day_006
 
 - 描述：视频马赛克处理
@@ -109,7 +108,6 @@
 - 重要知识点：P3D、box
 
 <img src="Day_014/Day_014.png" alt="Day_014" width="320" height="256" />
-
 
 ### Day_015
 
@@ -180,7 +178,6 @@
 - 重要知识点：loadPixels、updatePixels
 
 <img src="Day_024/Day_024.png" alt="Day_024" width="300" height="300" />
-
 
 ### Day_025
 
@@ -265,7 +262,7 @@
 
 - 描述：根据鼠标移动速度绘制大小不同的圆
 - 重要知识点：mouseX, mouseY, pmouseX, pmouseY
-  
+
 <img src="Day_036/Day_036.png" width="300" />
 
 ### Day_037
@@ -282,12 +279,10 @@
 
 <img src="Day_038/Day_038.gif" width="300" />
 
-
 ### Day_039
 
 - 描述：待补充
 - 重要知识点：
-
 
 ### Day_040
 
@@ -296,14 +291,12 @@
 
 <img src="https://gitee.com/Childhood/blog-pic-1/raw/master/2021/11/13/playgif.gif" width="300" />
 
-
 ### Day_041
 
 - 描述：播放gif动图，控制动画速度
 - 重要知识点：image
 
 <img src="https://gitee.com/Childhood/blog-pic-1/raw/master/2021/11/13/gif_1.gif" width="300" />
-
 
 ### Day_042
 
@@ -328,14 +321,12 @@
 
 [https://www.processing.love/d/27-processing](https://www.processing.love/d/27-processing)
 
-
 ### Day_045
 
 - 描述：图片镜像反转
 - 重要知识点：scale
 
 <img src="Day_045/Day_045.png" width="300" />
-
 
 ### Day_046
 
@@ -348,7 +339,6 @@
 
 - 描述：基本的粒子系统
 - 重要知识点：[从零入门Processing粒子系统](https://mp.weixin.qq.com/s/ExYbuaohlaktAqe7wKvIrA)
-
 
 <img src="https://mmbiz.qpic.cn/mmbiz_gif/o2DBIZCS4KrpGvGqWGoz8VSb5t7lM13NW1IxEoK2NqXFiaqcWkqCjZia5eLBSLLbcnV4ywl4evd3MCfTyQ51Cw4w/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1" width="300" />
 
@@ -377,4 +367,13 @@
 - 重要知识点：pixels
 
 <img src="Day_051/Day_051.png" width="300" />
+
+## Day_052
+
+- 描述：子弹与高斯正态分布
+- 重要知识点：randomGaussian
+
+<img src="Day_052/Day_052_1.png" width="300" />
+<img src="Day_052/Day_052_2.png" width="300" />
+
 

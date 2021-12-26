@@ -370,3 +370,11 @@
 
 - 描述：读取data文件夹下按照修改时间排序的文件
 - 重要知识点：Arrays, Comparator.comparingLong(File::lastModified).reversed(), File, listFiles()
+
+## Day_051
+
+- 描述：沙画风向测试
+- 重要知识点：pixels
+
+<img src="Day_051/Day_051.png" width="300" />
+

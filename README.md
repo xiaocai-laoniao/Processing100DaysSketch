@@ -376,4 +376,9 @@
 <img src="Day_052/Day_052_1.png" width="300" />
 <img src="Day_052/Day_052_2.png" width="300" />
 
+## Day_053
 
+- 描述：缩放scale与保持大小不变
+- 重要知识点：scale
+
+<img src="Day_053/Day_053.gif" width="300" />

@@ -382,3 +382,10 @@
 - 重要知识点：scale
 
 <img src="Day_053/Day_053.gif" width="300" />
+
+## Day_054
+
+- 描述： 神奇的一个函数
+- 重要知识点：P3D, ArrayList
+
+<img src="Day_054/Day_054.png" width="300" />

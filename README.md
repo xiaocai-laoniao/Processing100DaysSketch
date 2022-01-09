@@ -388,4 +388,9 @@
 - 描述： 神奇的一个函数
 - 重要知识点：P3D, ArrayList
 
-<img src="Day_054/Day_054.png" width="300" />
+## Day_055
+
+- 描述：沙画笔触简单模拟 
+- 重要知识点：randomGaussian()
+
+<img src="Day_055/Day_055.png" width="300" />

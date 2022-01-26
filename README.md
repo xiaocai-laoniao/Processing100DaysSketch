@@ -393,4 +393,9 @@
 - 描述：沙画笔触简单模拟 
 - 重要知识点：randomGaussian()
 
-<img src="Day_055/Day_055.png" width="300" />
+## Day_056
+
+- 描述：2022春节微信红包封面-小老虎
+- 重要知识点：基本图形绘制
+
+<img src="Day_056/Day_056.jpg" width="300" />

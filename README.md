@@ -398,4 +398,27 @@
 - 描述：2022春节微信红包封面-小老虎
 - 重要知识点：基本图形绘制
 
-<img src="Day_056/Day_056.jpg" width="300" />
+## Day_057
+
+- 描述：内容多于画布时的视角运动
+- 重要知识点：translate
+
+<img src="Day_057/Day_057.png" width="300" />
+
+## Day_058
+
+midi parser 暂未完成
+
+## Day_059
+
+- 描述：图片像素的3D显示
+- 重要知识点：sphere，translate
+
+<img src="Day_059/Day_059.png" width="300" />
+
+## Day_060
+
+- 描述：多段贝塞尔路径运动
+- 重要知识点：bezierPoint
+
+<img src="Day_060/bezier.gif" width="300" />

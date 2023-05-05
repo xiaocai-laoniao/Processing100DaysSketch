@@ -18,6 +18,7 @@ float targetColorR, targetColorG, targetColorB;
 void setup() {
   size(640, 480);
   video = new Capture(this, width, height, 30);
+  //video = new Capture(this, "pipeline:autovideosrc");
   smooth();
 
   box2d = new Box2DProcessing(this);

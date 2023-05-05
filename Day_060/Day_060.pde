@@ -39,12 +39,18 @@ void draw() {
   circle(x, y, 20);
   t += 0.01;
 
+  //if (t >= 1) {
+  //  t = 0;
+  //  if (path == 0) {
+  //    path = 1;
+  //  } else if (path == 1) {
+  //    path = 0;
+  //  }
+  //}
+
+  // 因为是两段路径，也可以用加1取余的方式来实现路径首尾循环
   if (t >= 1) {
     t = 0;
-    if (path == 0) {
-      path = 1;
-    } else if (path == 1) {
-      path = 0;
-    }
+    path = (path + 1) % 2;
   }
 }

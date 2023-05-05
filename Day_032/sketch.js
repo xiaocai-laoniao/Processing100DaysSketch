@@ -24,18 +24,58 @@ function runDetection() {
 
 function setup() {
 	canvas = createCanvas(640, 480);
-	capture = createCapture(VIDEO, function() {
-		handTrack.load(modelSettings).then(lmodel => {
-			model = lmodel;
-			runDetection();
-		});
-	});
-	context = canvas.elt.getContext("2d");
-	capture.hide();
+  
+  var facetimeCameraId = null;
+  if (!navigator.mediaDevices?.enumerateDevices) {
+    console.log("enumerateDevices() not supported.");
+  } else {
+    // List cameras and microphones.
+    navigator.mediaDevices
+      .enumerateDevices()
+      .then((devices) => {
+        devices.forEach((device) => {
+          // judge device label contains "FaceTime"
+          if (device.label.indexOf("FaceTime") > -1) {
+            facetimeCameraId = device.deviceId;
+            startCamera(facetimeCameraId);
+          }
+
+          console.log(`${device.kind}: ${device.label} id = ${device.deviceId}`);
+        });
+      })
+      .catch((err) => {
+        console.error(`${err.name}: ${err.message}`);
+      });
+  }
+
 	imageMode(CENTER);
 
 	textAlign(LEFT, TOP);
 	textStyle(BOLD);
+}
+
+function startCamera(deviceId) {
+  let constraints = {
+    video: {
+      deviceId: deviceId,
+      // mandatory: {
+      //   minWidth: 1280,
+      //   minHeight: 720
+      // },
+      // optional: [{ maxFrameRate: 10 }]
+    },
+    audio: true
+  };
+
+  capture = createCapture(constraints, function() {
+  // capture = createCapture(VIDEO, function() {
+    handTrack.load(modelSettings).then(lmodel => {
+      model = lmodel;
+      runDetection();
+    });
+  });
+  context = canvas.elt.getContext("2d");
+  capture.hide();
 }
 
 function draw() {

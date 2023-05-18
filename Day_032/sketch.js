@@ -25,11 +25,19 @@ function runDetection() {
 function setup() {
 	canvas = createCanvas(640, 480);
   
+  setupCamera();
+
+	imageMode(CENTER);
+
+	textAlign(LEFT, TOP);
+	textStyle(BOLD);
+}
+
+function setupCamera() {
   var facetimeCameraId = null;
   if (!navigator.mediaDevices?.enumerateDevices) {
     console.log("enumerateDevices() not supported.");
   } else {
-    // List cameras and microphones.
     navigator.mediaDevices
       .enumerateDevices()
       .then((devices) => {
@@ -38,6 +46,7 @@ function setup() {
           if (device.label.indexOf("FaceTime") > -1) {
             facetimeCameraId = device.deviceId;
             startCamera(facetimeCameraId);
+            console.log("FaceTime Camera Found!")
           }
 
           console.log(`${device.kind}: ${device.label} id = ${device.deviceId}`);
@@ -47,33 +56,32 @@ function setup() {
         console.error(`${err.name}: ${err.message}`);
       });
   }
-
-	imageMode(CENTER);
-
-	textAlign(LEFT, TOP);
-	textStyle(BOLD);
 }
 
 function startCamera(deviceId) {
-  let constraints = {
-    video: {
-      deviceId: deviceId,
-      // mandatory: {
-      //   minWidth: 1280,
-      //   minHeight: 720
-      // },
-      // optional: [{ maxFrameRate: 10 }]
-    },
-    audio: true
-  };
-
-  capture = createCapture(constraints, function() {
-  // capture = createCapture(VIDEO, function() {
-    handTrack.load(modelSettings).then(lmodel => {
-      model = lmodel;
-      runDetection();
+  if (deviceId == null) {
+    capture = createCapture(VIDEO, function() {
+      handTrack.load(modelSettings).then(lmodel => {
+        model = lmodel;
+        runDetection();
+      });
     });
-  });
+  } else {
+    let constraints = {
+      video: {
+        deviceId: deviceId,
+      },
+      audio: true
+    };
+    console.log(constraints);
+    capture = createCapture(constraints, function() {
+      handTrack.load(modelSettings).then(lmodel => {
+        model = lmodel;
+        runDetection();
+      });
+    });
+  }
+
   context = canvas.elt.getContext("2d");
   capture.hide();
 }

@@ -422,3 +422,10 @@ midi parser 暂未完成
 - 重要知识点：bezierPoint
 
 <img src="Day_060/bezier.gif" width="300" />
+
+## Day_061
+
+- 描述：神奇的random
+- 重要知识点：random, noise
+
+<img src="Day_061/Day_061.jpg" width="300" />

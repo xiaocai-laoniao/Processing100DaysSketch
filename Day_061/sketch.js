@@ -73,7 +73,7 @@ function setup() {
 
 	drawPoints(x, y + 5 * spacingY, radius, function(angle) {
 		return pow(noise(angle), random(1))
-	}, "exp(random(1)) / 2");
+	}, "pow(noise(angle), random(1))");
 
 	drawPoints(x + spacingX, y + 5 * spacingY, radius, function(angle) {
 		return exp(noise(angle)) / random(3);

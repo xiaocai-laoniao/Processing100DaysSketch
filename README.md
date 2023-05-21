@@ -429,3 +429,10 @@ midi parser 暂未完成
 - 重要知识点：random, noise
 
 <img src="Day_061/Day_061.jpg" width="300" />
+
+## Day_062
+
+- 描述：loop
+- 重要知识点：p5.createLoop library 
+
+<img src="Day_062/Day_062.gif" width="300" />

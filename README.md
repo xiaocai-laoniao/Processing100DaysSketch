@@ -436,3 +436,11 @@ midi parser 暂未完成
 - 重要知识点：p5.createLoop library 
 
 <img src="Day_062/Day_062.gif" width="300" />
+
+
+## Day_063
+
+- 描述：Processing不重启动态修改参数变量
+- 重要知识点：WatchService, Thread
+
+<img src="Day_063/Day_063.png" width="300" />

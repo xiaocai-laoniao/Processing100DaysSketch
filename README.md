@@ -444,3 +444,10 @@ midi parser 暂未完成
 - 重要知识点：WatchService, Thread
 
 <img src="Day_063/Day_063.png" width="300" />
+
+## Day_064
+
+- 描述：震动
+- 重要知识点：navigator.vibrate
+
+<img src="Day_064/Day_064.png" width="300" />

@@ -451,3 +451,17 @@ midi parser 暂未完成
 - 重要知识点：navigator.vibrate
 
 <img src="Day_064/Day_064.png" width="300" />
+
+## Day_065
+
+- 描述：噪波运动
+- 重要知识点：noise
+
+<img src="Day_065/Day_065.png" width="300" />
+
+## Day_066
+
+- 描述：emoji沙画
+- 重要知识点：二维数组
+
+<img src="Day_066/Day_066.png" width="300" />

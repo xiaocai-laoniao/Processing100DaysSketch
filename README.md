@@ -6,13 +6,13 @@
 
 ## 最新作品
 
-### Day_067 - 星图菌丝分形
+### Day_068 - 四模式音画联觉
 
-用 p5.js 2.3.0 创作的递归分形：从中心裂开的枝脉像菌丝和星图，枝端生成发光孢子，鼠标移动会轻微弯曲局部引力场。
+原创 MIDI-like 乐句驱动的四模式音画联觉作品：`音符水母群`、`星图神经元`、`谱面风暴`、`节拍建筑` 分别从生物、星图、谱面和建筑角度解释同一段音乐。内置 `潮汐`、`星群`、`脉冲` 三套可切换 score，支持浏览器内播放合成音、导出当前 MIDI 和保存 PNG，每个视觉模式都拆分到独立 JS 文件。
 
 <p>
-  <a href="Day_067/">
-    <img src="Day_067/Day_067.png" alt="Day_067 星图菌丝分形" width="480" />
+  <a href="Day_068/">
+    <img src="Day_068/Day_068.png" alt="Day_068 音符水母群" width="480" />
   </a>
 </p>
 
@@ -31,7 +31,7 @@ python3 -m http.server 8080
 然后访问：
 
 ```text
-http://127.0.0.1:8080/Day_067/
+http://127.0.0.1:8080/Day_068/
 ```
 
 ## 创作记录
@@ -111,6 +111,7 @@ http://127.0.0.1:8080/Day_067/
 | [Day_065](Day_065/) | 噪波运动 | `noise` | <img src="Day_065/Day_065.png" alt="Day_065" width="160" /> |
 | [Day_066](Day_066/) | emoji 沙画 | 二维数组 | <img src="Day_066/Day_066.png" alt="Day_066" width="160" /> |
 | [Day_067](Day_067/) | 星图菌丝分形 | `p5.js 2.3.0`, 递归分形, `bezier`, `createGraphics`, `HSB` | <img src="Day_067/Day_067.png" alt="Day_067" width="160" /> |
+| [Day_068](Day_068/) | 四模式音画联觉 | `p5.js 2.3.0`, 多 MIDI-like score, Web Audio API, 水母群, 谱面风暴, 节拍建筑, MIDI 导出 | <img src="Day_068/Day_068.png" alt="Day_068" width="160" /> |
 
 ## 维护约定
 

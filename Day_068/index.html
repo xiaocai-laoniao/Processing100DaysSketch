@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Day 068 - Synesthetic Score Scenes</title>
+  <script src="https://cdn.jsdelivr.net/npm/p5@2.3.0/lib/p5.min.js"></script>
+  <script>
+    p5.disableFriendlyErrors = true;
+  </script>
+  <script src="neural-scene.js"></script>
+  <script src="jellyfish-scene.js"></script>
+  <script src="score-storm-scene.js"></script>
+  <script src="beat-architecture-scene.js"></script>
+  <script src="sketch.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <main>
+    <div id="canvas-wrap"></div>
+    <nav class="controls" aria-label="Playback controls">
+      <button class="scene-switch is-active" data-scene="jellyfish" type="button">水母群</button>
+      <button class="scene-switch" data-scene="neural" type="button">神经元</button>
+      <button class="scene-switch" data-scene="storm" type="button">谱面风暴</button>
+      <button class="scene-switch" data-scene="architecture" type="button">节拍建筑</button>
+      <button class="score-switch is-active" data-score="tidal" type="button">潮汐</button>
+      <button class="score-switch" data-score="stellar" type="button">星群</button>
+      <button class="score-switch" data-score="pulse" type="button">脉冲</button>
+      <button id="play-toggle" type="button">Play</button>
+      <button id="restart-score" type="button">Restart</button>
+      <button id="download-midi" type="button">MIDI</button>
+      <button id="save-png" type="button">PNG</button>
+      <span id="status-line">Note jellyfish swarm · 108 BPM</span>
+    </nav>
+  </main>
+</body>
+
+</html>

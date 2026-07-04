@@ -1,0 +1,95 @@
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background:
+    radial-gradient(circle at 44% 30%, rgba(130, 93, 187, 0.2), transparent 29rem),
+    radial-gradient(circle at 72% 72%, rgba(26, 167, 180, 0.18), transparent 28rem),
+    linear-gradient(145deg, #05060b 0%, #10101c 48%, #030306 100%);
+  color: #ecf7ff;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 0.7rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+#canvas-wrap {
+  width: min(92vw, 88vh, 960px);
+  aspect-ratio: 1;
+  border: 1px solid rgba(193, 232, 255, 0.16);
+  background: #05060b;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.03),
+    0 28px 90px rgba(0, 0, 0, 0.56),
+    0 0 86px rgba(90, 218, 255, 0.13),
+    0 0 120px rgba(209, 91, 255, 0.08);
+}
+
+.p5Canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.controls {
+  width: min(92vw, 960px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+button {
+  min-width: 72px;
+  height: 34px;
+  border: 1px solid rgba(180, 232, 255, 0.23);
+  border-radius: 6px;
+  background: rgba(7, 10, 20, 0.72);
+  color: rgba(236, 247, 255, 0.9);
+  font: inherit;
+  font-size: 12px;
+  letter-spacing: 0;
+  cursor: pointer;
+  transition: border-color 160ms ease, background 160ms ease, transform 160ms ease;
+}
+
+button:hover {
+  border-color: rgba(253, 211, 107, 0.7);
+  background: rgba(28, 22, 38, 0.86);
+  transform: translateY(-1px);
+}
+
+button.is-active,
+.scene-switch[aria-pressed="true"] {
+  border-color: rgba(118, 241, 224, 0.74);
+  background: rgba(16, 56, 70, 0.72);
+  color: #f4ffff;
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+#status-line {
+  color: rgba(236, 247, 255, 0.58);
+  font-size: 12px;
+  min-height: 1.2em;
+}
+
+@media (max-width: 560px) {
+  main {
+    padding: 0.75rem;
+  }
+
+  button {
+    min-width: 64px;
+  }
+}

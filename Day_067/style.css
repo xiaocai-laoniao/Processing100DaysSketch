@@ -1,0 +1,43 @@
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background:
+    radial-gradient(circle at 50% 38%, rgba(53, 68, 100, 0.34), transparent 36rem),
+    linear-gradient(140deg, #05060b 0%, #0d111d 48%, #020308 100%);
+  color: #d9e7ff;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  gap: 0.75rem;
+  align-content: center;
+}
+
+#canvas-wrap {
+  width: min(92vw, 92vh, 940px);
+  aspect-ratio: 1;
+  border: 1px solid rgba(180, 213, 255, 0.16);
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.03),
+    0 30px 90px rgba(0, 0, 0, 0.52),
+    0 0 80px rgba(95, 147, 255, 0.12);
+  background: #05060b;
+}
+
+.p5Canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.hint {
+  margin: 0;
+  color: rgba(217, 231, 255, 0.58);
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  user-select: none;
+}
